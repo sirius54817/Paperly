@@ -40,3 +40,17 @@ Contributing
 
 - Create feature branches, run tests, open PRs.
 
+
+
+Vercel Deployment
+
+- This project is ready to deploy on Vercel. A `vercel.json` has been added with the recommended build settings for Next.js.
+- To deploy:
+
+```bash
+# from the project root
+vercel --prod
+```
+
+Vercel will automatically detect the Next.js app and run `npm run build`. Ensure your repository is connected to your Vercel account and the project is configured to use the `main` branch.
+
